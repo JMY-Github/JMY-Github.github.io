@@ -1,18 +1,12 @@
-title: My Blog
+title: JMY's Blog
+name: "소프트웨어학부 20223135 정민용"
 email: my2002629@kookmin.ac.kr
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: I don't have twitter account
-github_username:  JMY-Github
+description: Hello World
+url: "https://jmy-github.github.io/"
+repository: "JMY-Github.github.io"
+github_username: JMY-Github
 
-# Gems
+# Build settings
+theme: minima
 plugins:
-  - jekyll-paginate
-
-# Custom vars
-version:             1.1.0
-google_analytics_id: #UA-XXXX-Y
+  - jekyll-feed
