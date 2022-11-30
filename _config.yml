@@ -10,3 +10,8 @@ github_username: JMY-Github
 theme: minima
 plugins:
   - jekyll-feed
+
+comment:
+  provider: "disqus"
+  disqus:
+    shortname: "super-corini"
